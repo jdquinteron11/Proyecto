@@ -1,4 +1,7 @@
 package modelo;
 
-public class Rol_Enum {
+public enum Rol {
+    Rector,
+    Abogado,
+    Administrador
 }

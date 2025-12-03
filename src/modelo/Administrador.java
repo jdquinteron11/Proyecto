@@ -3,7 +3,7 @@ package modelo;
 public class Administrador extends Usuario {
     private int nivelAcceso; // Atributo especifico de Administrador
 
-    public Administrador(String nombre, String apellido, int edad, String email, String password, int nivelAcceso) {
+    public Administrador(String nombre, String apellido, int edad, String email, String password) {
         super(nombre, apellido, edad, email, password);
         this.nivelAcceso = nivelAcceso;
     }

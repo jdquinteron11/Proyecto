@@ -1,5 +1,6 @@
+// java
 package modelo;
-// Interfaz Autenticable que define el metodo login >>>> esta sera implementada por la clase Usuario y el inicio del codigo en la rama herencia
+// Interfaz para autenticación de usuarios
 public interface Autenticable {
-    boolean login(String email, String password);
+    boolean autenticar(String hashedPassword);
 }

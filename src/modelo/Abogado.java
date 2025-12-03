@@ -6,7 +6,7 @@ public class Abogado extends Usuario {
     private String especialidad; // Atributo especifico de Abogado
 
     // Constructor
-    public Abogado(String nombre, String apellido, int edad, String email, String password, String especialidad) {
+    public Abogado(String nombre, String apellido, int edad, String email, String password) {
         super(nombre, apellido, edad, email, password);
         this.especialidad = especialidad;
     }
